@@ -1,0 +1,125 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/DamonOehlman/wildcard">wildcard (v1.1.2)</a>
+</h1>
+<h4>Wildcard matching tools</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wildcard">module wildcard</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wildcard.wildcard">
+            function <span class="apidocSignatureSpan"></span>wildcard
+            <span class="apidocSignatureSpan">(text, test, separator)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wildcard.toString">
+            function <span class="apidocSignatureSpan">wildcard.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wildcard" id="apidoc.module.wildcard">module wildcard</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wildcard.wildcard" id="apidoc.element.wildcard.wildcard">
+        function <span class="apidocSignatureSpan"></span>wildcard
+        <span class="apidocSignatureSpan">(text, test, separator)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">wildcard = function (text, test, separator) {
+  var matcher = new WildcardMatcher(text, separator || /[\/\.]/);
+  if (typeof test != 'undefined') {
+    return matcher.match(test);
+  }
+
+  return matcher;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wildcard.toString" id="apidoc.element.wildcard.toString">
+        function <span class="apidocSignatureSpan">wildcard.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
